@@ -66,6 +66,8 @@ public class Controller {
                 viewConversoin.printConversoin(dataConversion.conversionToDecimal(x));
                 break;
             }
+            default:
+                System.out.println("Вы ввели недопустимое значение!");
         }
     }
 }
